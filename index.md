@@ -1,5 +1,5 @@
 ---
-layout: testnav
+layout: default
 ---
 
 # Project Pages site test
@@ -243,3 +243,6 @@ for( i_42343 = 0; i_42343 < myExpandElements_42343.length; i_42343++ ) {
 
 </script>
 
+# Resources for different areas
+
+{% include nav.html nav=site.data.nav %}
