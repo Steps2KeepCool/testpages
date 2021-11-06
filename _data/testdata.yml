@@ -1,0 +1,16 @@
+description: A set of test data
+sections:
+  - description: Desc section A
+    list:
+      - field1: section A entry 0 field 1
+        field2: section A entry 0 field 2
+      - field1: section A entry 1 field 1
+        field2: section A entry 1 field 2
+  - description: Desc section B
+    list:
+      - field1: section B entry 0 field 1
+        field2: section B entry 0 field 2
+      - field1: section B entry 1 field 1
+        field2: section B entry 1 field 2
+      - field1: section B entry 2 field 1
+        field2: section B entry 2 field 2
