@@ -9,8 +9,9 @@ layout: default
 {% for section in site.data.testdata.sections %}
 ### Section: {{ section.description }}
 {% for item in section.list %}
-  field1: {{ item.field1 }}
-  field2: {{ item.field2 }}
+Item:\
+* field1: {{ item.field1 }}
+* field2: {{ item.field2 }}
 {% endfor %}
 
 {% endfor %}
